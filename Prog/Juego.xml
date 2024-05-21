@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<juego>
+    <ListaDeJuegos>
+        <NJuegos>
+            <tipo>NRaya</tipo>
+            <tablero>
+                <tamano>3</tamano>
+            </tablero>
+            <jugadores>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                    <ficha>X</ficha>
+                    <turno>true</turno>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 2</nombre>
+                    <ficha>O</ficha>
+                    <turno>false</turno>
+                </jugador>
+            </jugadores>
+            <terminado>false</terminado>
+        </NJuegos>
+        <NJuegos>
+            <tipo>Aleatorio</tipo>
+            <rango>10</rango>
+            <jugadores>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                    <ficha>X</ficha>
+                    <turno>true</turno>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 2</nombre>
+                    <ficha>O</ficha>
+                    <turno>false</turno>
+                </jugador>
+            </jugadores>
+            <terminado>false</terminado>
+        </NJuegos>
+    </ListaDeJuegos>
+</juego>
