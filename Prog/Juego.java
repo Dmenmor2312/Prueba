@@ -41,12 +41,10 @@ public class Juego {
             } else {
                 System.out.println("No se encontraron juegos en el archivo XML.");
             }
-        } catch (FileNotFoundException e) {
+        } catch (Exception e) {
             System.err.println("Error: No se pudo encontrar el archivo XML. Asegúrate de que el archivo existe en la ruta especificada.");
-            e.printStackTrace();
-        } catch (JAXBException e) {
-            System.err.println("Error al procesar el archivo XML. Asegúrate de que el archivo esté bien formado y coincida con la estructura esperada.");
-            e.printStackTrace();
+             System.err.println(e.getMessage());
+        } 
         } finally {
             if (leer != null) {
                 try {
